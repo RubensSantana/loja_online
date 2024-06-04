@@ -1,0 +1,64 @@
+body{
+    min-width: 372px;
+    min-height: 100vh;
+}
+
+/* .wrapper{
+    min-height: 100vh;
+} */
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #151515;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+.bi-cart{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+
+.bi-suit-heart{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.bi-suit-heart-fill{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#txtMensagem{
+    height: 200 px;
+}
+
+#buscaEndereco{
+    height: 58px;
+    font-size: 14px;
+}
+
+.bi-caret-down-fill, .bi-caret-up-fill, .bi-trash-fill{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+#ondeapostar{
+    color: inherit;
+    font-weight: normal;
+    text-decoration:none;
+}
+
+.bi-x{
+    font-size: 24px;
+    line-height: 24px;
+}
